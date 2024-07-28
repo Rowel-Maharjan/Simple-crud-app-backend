@@ -1,5 +1,4 @@
-const { Timestamp } = require("mongodb");
-const mongoose = require("mongoose");
+const mongoose = require("mongoose");   
 
 const productSchema = new mongoose.Schema({
     name: {
@@ -17,7 +16,7 @@ const productSchema = new mongoose.Schema({
         default: 0
     },
     image: {
-        type: String,
+        type: String,   
         required: false
     }
 },

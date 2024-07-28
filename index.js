@@ -3,7 +3,6 @@ const app = express();
 const port = "8000";
 const hostname = "127.0.0.1";
 const mongoose = require("mongoose");
-const product = require("./models/product.models.js")
 const productRoute = require("./route/product.route.js")
 
 
